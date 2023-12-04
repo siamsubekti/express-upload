@@ -2,7 +2,7 @@
   "name": "node-js-express-upload-download-files",
   "version": "1.0.0",
   "description": "Node.js Express Rest APIs to Upload/Download Files",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
