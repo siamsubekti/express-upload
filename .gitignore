@@ -1,2 +1,8 @@
 node_modules
 package-lock.json
+/.idea/.gitignore
+/.idea/express-file-upload.iml
+/resources/static/assets/uploads/joshua-stannard.jpg
+/.idea/modules.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
