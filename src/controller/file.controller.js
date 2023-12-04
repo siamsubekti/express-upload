@@ -1,6 +1,6 @@
 const uploadFile = require("../middleware/upload");
 const fs = require("fs");
-const baseUrl = "http://localhost:8080/files/";
+const baseUrl = process.env.NODE_ENV === 'production' ? 'https://vercel.com/siamsubekti/express-upload/files' : "http://localhost:8080/files/";
 
 const upload = async (req, res) => {
   try {

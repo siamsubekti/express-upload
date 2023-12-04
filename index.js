@@ -11,6 +11,9 @@ var corsOptions = {
 app.use(cors(corsOptions));
 
 const initRoutes = require("./src/routes");
+const path = require("path");
+
+app.use('/images', express.static(path.join(__dirname, 'resources/static/assets/uploads')));
 
 app.use(express.urlencoded({ extended: true }));
 initRoutes(app);
